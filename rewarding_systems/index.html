@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="../images/logo_mini.png">
+
+    <link rel="stylesheet" href="css/style_login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1><img src="images/logo_large.png" alt="logo" class="logo_large"></h1>
+    <div class="container_login">
+        <h2>Welcome!</h2>
+        <p>Enter your email and password</p>
+
+        <div class="container_form">
+            <form id="login_form">
+            <div class="form-floating mb-3">
+                <input style="border-color: #A7102D; width: 450px;" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="input-group mb-4">
+                <div class="form-floating">
+                    <input style="border-color: #A7102D; width: 398px;" type="password" class="rounded-0 rounded-start form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+                <button style="border-color: #A7102D;" class="btn btn-outline-secondary" type="button" id="showhide_button">
+                    <img src="images/vector_eye_hide.png" alt="vector_password" id="showhide_vector">
+                </button>
+            </div>
+                <button class="button_login" type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script_login.js"></script>
+</body>
+</html>
