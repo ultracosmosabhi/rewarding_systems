@@ -97,8 +97,12 @@ body{
 	padding-top: 13px;
 }
 
-.navbar_side_menu img{
-	margin: 0 auto;
+.navbar_side_menu a{
+	text-align: center;
+}
+
+.navbar_side p{
+	text-align: left;
 }
 
 .menu_home{
@@ -120,6 +124,7 @@ body{
 	justify-items: center; */
 	font-size: 18px;
 	font-weight: 500;
+	color: #000000;
 }
 
 .menu_ranking{
@@ -130,6 +135,7 @@ body{
 	justify-items: center; */
 	font-size: 18px;
 	font-weight: 500;
+	color: #000000;
 }
 
 .menu_redeem{
@@ -140,6 +146,7 @@ body{
 	justify-items: center; */
 	font-size: 18px;
 	font-weight: 500;
+	color: #000000;
 }
 
 .menu_awardee{
@@ -150,6 +157,7 @@ body{
 	justify-items: center; */
 	font-size: 18px;
 	font-weight: 500;
+	color: #000000;
 }
 
 .menu_faq{
@@ -160,6 +168,11 @@ body{
 	justify-items: center; */
 	font-size: 18px;
 	font-weight: 500;
+	color: #000000;
+}
+
+.navbar_side_menu a{
+	text-decoration: none;
 }
 
 .navbar_side p{
