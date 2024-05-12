@@ -15,3 +15,5 @@
 //     localStorage.removeItem('isLoggedIn');
 //   }
 // });
+
+// $("#modal_history").modal()

@@ -314,14 +314,15 @@ body{
 	margin-bottom: 5px;
 }
 
-.reward  a{
+.reward  .anchor_link{
 	text-decoration: none;
 	color: #D3122B;
 	font-size: 14px;
 	font-weight: 600;
+	padding: 0;
 }
 
-.reward a:hover{
+.reward .anchor_link:hover{
 	color: #F58593;
 }
 
@@ -391,14 +392,15 @@ body{
 	font-weight: 700;
 }
 
-.history_title a{
+.history_title .anchor_link{
 	font-size: 14px;
 	font-weight: 600;
 	color: #D3122B;
 	text-decoration: none;
+	padding: 0;
 }
 
-.history_title a:hover{
+.history_title .anchor_link:hover{
 	color: #F58593;
 }
 
@@ -517,3 +519,82 @@ body{
 	justify-self: center;
   	align-self: end;
 }
+
+/* Modal */
+
+.modal_side{
+    width: calc(100% - 335px) !important;
+    margin-left: 335px !important;
+	margin-top: 0 !important;
+	min-height: 100vh !important;
+	height: fit-content !important;
+}
+
+.modal_side_body{
+	min-height: 100vh !important;
+	height: fit-content !important;
+	padding-bottom: 50px !important;
+}
+
+#modal_history{
+	height: fit-content;
+}
+
+.modal_container{
+	border-radius: 0 !important;
+}
+
+table, tr, th, td{
+	border: 2px solid #292929 !important;
+}
+
+thead{
+	background-color: #A7102D;
+	color: #ffffff;
+}
+
+.page-item.active .page-link{
+	background-color: #A7102D !important;
+	color: #ffffff !important;
+}
+
+.page-item.disabled .page-link{
+	background-color: #E2E2E2 !important;
+	color: #000000 !important;
+}
+
+.page-item .page-link{
+	border: 2px solid #000000 !important;
+	height: 37px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000000 !important;
+}
+
+.pagination{
+	display: grid !important;
+	grid-template-columns: max-content max-content max-content max-content max-content max-content max-content;
+	column-gap: 5px;
+}
+
+.page-link{
+	border-top-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-bottom-left-radius: 5px !important;
+	font-size: 14px;
+}
+
+@keyframes slideInRight {
+	from {
+	  transform: translateX(100%);
+	}
+	to {
+	  transform: translateX(0);
+	}
+  }
+  
+  .modal {
+	animation: slideInRight 0.5s forwards;
+  }
