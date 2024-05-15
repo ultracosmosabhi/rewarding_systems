@@ -241,3 +241,87 @@ body{
 }
 
 /* Code Content Here */
+h1 {
+	font-size: 28px;
+	font-weight: 600;
+}
+
+table th {
+	width: 905px;
+	border: 2px solid #292929;
+	padding: 8px 15px;
+	background-color: #A7102D;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+table td {
+	width: 905px;
+	border: 2px solid #292929;
+	padding: 8px 15px;
+	text-align: center;
+	color:#000000;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.navigation{
+	margin-top: 20px;
+}
+
+ul li{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	font-size: 15px;
+	text-align: center;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.pagination {
+	margin-top: 10px;
+}
+
+ul li.number:hover{
+	background-color: #A7102D;
+}
+
+ul li.number:hover a{
+	color: #FFFFFF;
+}
+
+ul li.number.active{
+	background-color: #A7102D;
+}
+
+ul li.number.active a{
+	color: #FFFFFF;
+}
+
+.contenttable2 {
+	margin-top: 30px;
+}
+
+h2{
+	font-size: 28px;
+	font-weight: 600;
+}
+
+li.prev img,
+li.next img{
+	margin-top: 4px;
+}
+
+ul li.prev:hover,
+ul li.next:hover {
+	background-color: #A7102D;
+}
+
+
