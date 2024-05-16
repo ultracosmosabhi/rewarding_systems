@@ -327,3 +327,118 @@ body{
 	background-position: 13px;
 }
 
+h2{
+	font-size: 28px !important;
+	font-weight: 600;
+}
+
+.title_prize{
+	display: flex;
+	justify-content: space-between;
+	height: fit-content;
+	margin-top: 40px;
+	margin-bottom: 25px
+}
+
+.info_prize{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.info_prize p{
+	margin-bottom: 0px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.info_prize p:nth-of-type(1){
+	margin-right: 30px;
+}
+
+
+.reg_prize{
+	width: 15px;
+	height: 15px;
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+
+.pre_prize{
+	width: 15px;
+	height: 15px;
+	background-color: #181818;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+
+.button_redeem{
+    width: 100%;
+    height: 29px;
+
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+
+    border-radius: 50px;
+    border: none;
+    background-color: #D3122B;
+}
+
+.card-title{
+	font-size: 18px;
+}
+
+.card-text{
+	font-size: 16px;
+}
+
+.card img{
+	height: 134px;
+	border-right: 1px solid #444444;
+}
+
+.card{
+	border-color: #444444 !important;
+}
+
+.group_card{
+	display: flex;
+	justify-content: space-between;
+}
+
+.group_card{
+	margin-bottom: 15px;
+}
+
+.reward_disable .title_prize{
+	margin-top: 70px;
+}
+
+.button_disable{
+	background-color: #C7C7C7;
+	color: #858585;
+}
+
+button:disabled {
+	cursor: not-allowed;
+}
+
+.premium{
+	color: #ffffff;
+	background-color: #181818;
+}
+
+.reward_disable .group_card:nth-of-type(5){
+	justify-content: start;
+	gap: 28px;
+	margin-bottom: 0px;
+}
+
+/* .card{
+	height: 136px;
+} */

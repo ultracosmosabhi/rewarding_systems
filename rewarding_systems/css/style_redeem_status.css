@@ -243,19 +243,19 @@ body{
 
 /* Code Content Here */
 
-.page-item.active .page-link{
+.pagination_button .page-item.active .page-link{
 	background-color: #A7102D !important;
 	color: #ffffff !important;
 	font-weight: 600;
 	border: none !important;
 }
 
-.page-item.disabled .page-link{
+.pagination_button .page-item.disabled .page-link{
 	background-color: #E2E2E2 !important;
 	color: #000000 !important;
 }
 
-.page-item .page-link{
+.pagination_button .page-item .page-link{
 	border: 2px solid #444444 !important;
 	height: 37px;
 	display: flex;
@@ -266,16 +266,103 @@ body{
 	padding-right: 35px;
 }
 
-.pagination{
+.pagination_button{
 	display: grid !important;
-	grid-template-columns: max-content max-content max-content max-content max-content max-content max-content;
+	grid-template-columns: max-content max-content;
 	column-gap: 20px;
+	padding-left: 0px;
+	margin-bottom: 30px;
 }
 
-.page-link{
+.pagination_button .page-link{
 	border-top-right-radius: 50px !important;
 	border-top-left-radius: 50px !important;
 	border-bottom-right-radius: 50px !important;
 	border-bottom-left-radius: 50px !important;
 	font-size: 14px;
+}
+
+
+
+table, tr, th, td{
+	border: 2px solid #292929 !important;
+}
+
+thead{
+	background-color: #A7102D;
+	color: #ffffff;
+	text-align: center;
+}
+
+tbody tr td:nth-of-type(2), td:nth-of-type(3), td:nth-of-type(4), td:nth-of-type(5){
+	text-align: center;
+}
+
+td button{
+	width: 150px;
+    height: 30px;
+
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+
+    border-radius: 50px;
+    border: none;
+    background-color: #D3122B;
+
+	margin-top: 15px;
+}
+
+.page-item.active .page-link{
+	background-color: #A7102D !important;
+	color: #ffffff !important;
+}
+
+.page-item.disabled .page-link{
+	background-color: #E2E2E2 !important;
+	color: #000000 !important;
+}
+
+.page-item .page-link{
+	border: 2px solid #000000 !important;
+	height: 37px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000000 !important;
+}
+
+.pagination{
+	display: grid !important;
+	grid-template-columns: max-content max-content max-content max-content max-content max-content max-content;
+	column-gap: 5px;
+}
+
+.page-link{
+	border-top-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-bottom-left-radius: 5px !important;
+	font-size: 14px;
+}
+
+/* Modal */
+
+.btn_secondary{
+	border: 2px solid #444444 !important;
+	border-radius: 50px !important;
+	padding-right: 20px !important;
+	padding-left: 20px !important;
+	font-weight: 600 !important;
+	color: #181818 !important;
+}
+
+.btn_primary{
+	background-color: #D3122B !important;
+	border-radius: 50px !important;
+	padding-right: 20px !important;
+	padding-left: 20px !important;
+	font-weight: 600 !important;
+	color: #ffffff !important;
 }
