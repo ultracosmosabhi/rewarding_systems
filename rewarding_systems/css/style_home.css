@@ -233,6 +233,7 @@ body{
 	padding-right: 32px;
 	padding-top: 45px;
 	padding-bottom: 50px;
+	color: #000000;
 }
 
 .navbar_head p{
@@ -554,6 +555,11 @@ table, tr, th, td{
 thead{
 	background-color: #A7102D;
 	color: #ffffff;
+	text-align: center;
+}
+
+tbody tr td:nth-of-type(2), td:nth-of-type(3), td:nth-of-type(4), td:nth-of-type(5){
+	text-align: center;
 }
 
 .page-item.active .page-link{

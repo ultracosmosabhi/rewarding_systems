@@ -234,6 +234,7 @@ body{
 	padding-right: 32px;
 	padding-top: 45px;
 	padding-bottom: 50px;
+	color: #000000;
 }
 
 .navbar_head p{
@@ -241,19 +242,33 @@ body{
 }
 
 /* Code Content Here */
+
+h2 {
+	font-size: 28px !important;
+	font-weight: 600;
+	margin-bottom: 25px !important;
+}
+
+h2:nth-of-type(2){
+	margin-top: 60px;
+}
+
+h2:nth-of-type(3){
+	margin-top: 70px;
+	margin-bottom: 20px !important;
+}
+
 .upper_content{
 	display: grid;
 	grid-template-rows: max-content;
-	margin-bottom: 46px;
 }
 
-.upper-content-title {
-	font-family: Inter;
+/* .upper-content-title {
 	font-size: 28px;
 	font-weight: 600;
 	line-height: 33.89px;
 	text-align: left;
-}
+} */
 
 table, tr, th, td{
 	border: 2px solid #292929 !important;
@@ -285,7 +300,6 @@ thead{
     background-color: #A7102D;
     width: 155px;
     height: 33px;
-	font-family: Inter;
 	color: #FFFFFF;
 }
 
@@ -296,19 +310,17 @@ thead{
 	color: #000000;
 }
 
-.mid-content-title {
-	font-family: Inter;
+/* .mid-content-title {
 	font-size: 28px;
 	font-weight: 600;
 	line-height: 33.89px;
 	text-align: left;
 	margin-top: 50px;
-}
+} */
 
 .container-monthly-ranking {
 	display: flex;
 	gap: 10px;
-	margin-top: 30px;
 	width: 100%;
 }
 
@@ -320,7 +332,6 @@ thead{
 
 .monthly-ranking p:nth-of-type(1){
 	text-align: center;
-	font-family: Inter;
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 29.05px;
@@ -356,24 +367,25 @@ thead{
 	width: 100%;
 }
 
-.bottom-content-title {
-	font-family: Inter;
+/* .bottom-content-title {
 	font-size: 28px;
 	font-weight: 600;
 	line-height: 33.89px;
 	text-align: left;
 	margin-top: 60px;
-}
+} */
 
 .container-edition-content-title {
 	display: flex;
-	margin-top: 23px;
 	gap: 8px;
 }
 
+.container-edition-content-title p{
+	margin-bottom: 0px;
+}
+
 .edition-content-title {
-	font-family: Inter;
-	font-size: 28px;
+	font-size: 26px;
 	font-weight: 500;
 	line-height: 33.89px;	
 	text-align: left;
@@ -381,8 +393,8 @@ thead{
 }
 
 .edition-content-title02 {
-	font-family: Inria Sans;
-	font-size: 30px;
+	font-family: "Inria Sans", sans-serif;
+	font-size: 28px;
 	font-weight: 700;
 	line-height: 35.97px;
 	text-align: left;
@@ -391,7 +403,7 @@ thead{
 
 .container-edition-content {
 	display: flex;
-	margin-top: 20px;
+	margin-top: 25px;
 	gap: 27.4px;
 	width: 100%;
 }
@@ -400,6 +412,7 @@ thead{
 	justify-self: start;
 	align-self: end;
 	width: 100%;
+	text-align: center;
 }
 
 .edition-content img {
@@ -410,11 +423,11 @@ thead{
 .edition-content p {
 	width: 128px;
 	height: 76px;
-	font-family: Inter;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 19.36px;
 	text-align: center;
 	color: #000000;
+	margin: 0 auto;
 	margin-top: 10px;
 }
