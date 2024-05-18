@@ -243,3 +243,58 @@ body{
 }
 
 /* Code Content Here */
+
+.accordion {
+    width: 90%;
+    max-width: 100%;
+    margin: 45px 32px 28px 50px;
+}
+
+.accordion-item {
+    background-color: #fff;
+    color: #000;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 3px solid #000;
+}
+
+.accordion-item-header {
+    background-color: #A7102D;
+    color: #fff;
+	padding: 22px auto;
+    min-height: 68px;
+    line-height: 24.2px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+	font-family: 'Intern';
+	padding: 0.5rem 3rem 0.5rem 1rem;
+}
+
+.accordion-item-header::after {
+    content: "\25BC";
+    font-size: 20px;
+    position: absolute;
+    right: 25px;
+    transition: transform 0.2s ease-in-out;
+    color: #fff;
+}
+
+.accordion-item-header.active::after {
+    font-size: 20px;
+    transform: rotate(-180deg);
+}
+
+.accordion-item-body {
+    display: none;
+    padding: 25px;
+    line-height: 21.78px;
+    border-top: 1px solid#000;
+	font-family: 'Intern';
+}
+
+.accordion-item-header.active + .accordion-item-body {
+    display: block;
+}
