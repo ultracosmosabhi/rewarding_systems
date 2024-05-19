@@ -242,3 +242,40 @@ body{
 }
 
 /* Code Content Here */
+.page-item.active .page-link{
+	background-color: #A7102D !important;
+	color: #ffffff !important;
+	font-weight: 600;
+	border: none !important;
+}
+
+.page-item.disabled .page-link{
+	background-color: #E2E2E2 !important;
+	color: #000000 !important;
+}
+
+.page-item .page-link{
+	border: 2px solid #444444 !important;
+	height: 37px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000000 !important;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+.pagination{
+	display: grid !important;
+	grid-template-columns: max-content max-content;
+	column-gap: 20px;
+	margin-bottom: 30PX;
+}
+
+.page-link{
+	border-top-right-radius: 50px !important;
+	border-top-left-radius: 50px !important;
+	border-bottom-right-radius: 50px !important;
+	border-bottom-left-radius: 50px !important;
+	font-size: 14px;
+}
