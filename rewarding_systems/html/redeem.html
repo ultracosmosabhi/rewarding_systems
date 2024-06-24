@@ -45,7 +45,7 @@
             <div class="date_time">
             <div class="date">
                 <img src="../images/icon_calendar.png" alt="date">
-                <p>Monday, 22 April 2024</p>
+                <p>Monday, 22 September 2024</p>
             </div>
             <div class="time">
                 <img src="../images/icon_clock.png" alt="time">
@@ -53,8 +53,8 @@
             </div>
             </div>
             <div class="button_head">
-                <img src="../images/button_notif.png" alt="notification">
-                <img src="../images/button_profile.png" alt="profile">
+              <a href="notification.html"><img src="../images/button_notif.png" alt="notification"></a>
+              <a href="profile.html"><img src="../images/button_profile.png" alt="profile"></a>
             </div>
         </div>
         <div class="content">
@@ -358,11 +358,11 @@
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">Cancel Redeem</h5>
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Detail Redeem</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <p>Are you sure to cancel your reward redemption?</p>
+                    <p>Are you sure to redeem this reward?</p>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn_secondary" data-bs-dismiss="modal">Close</button>
@@ -372,12 +372,39 @@
             </div>
             </div>
 
+          <!-- <div class="modal fade" id="modal_redeem">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">Detail Redeem</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container-fluid">
+                    <div class="form-row">
+                      <div class="form-cell-reward">
+                        <label for="reward-read" class="form-label">Reward</label>
+                        <input class="form-control reward-form" type="text" value="Calendar" aria-label="Disabled input example" disabled readonly>
+                      </div>
+                      <div class="number-input">
+                        <a href="#" id="decrement"><img src="../images/button_min.png" alt="min"></a>
+                        <input type="number" class="form-control mx-2 number-form" id="number" value="0" min="0">
+                        <a href="#" id="increment"><img src="../images/button_plus.png" alt="plus"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
 
         </div>
     </div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script_redeem.js"></script>
 
 </body>
 </html>

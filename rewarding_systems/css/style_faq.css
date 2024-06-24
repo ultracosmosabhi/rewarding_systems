@@ -245,17 +245,22 @@ body{
 /* Code Content Here */
 
 .accordion {
-    width: 90%;
-    max-width: 100%;
-    margin: 45px 32px 28px 50px;
+    width: 100%;
+}
+
+.accordion-first{
+	margin-top: 0px !important;
+}
+
+.accordion-last{
+	margin-bottom: 0px !important;
 }
 
 .accordion-item {
     background-color: #fff;
     color: #000;
     margin: 20px 0;
-    border-radius: 5px;
-    border: 3px solid #000;
+	border-radius: 5px !important;
 }
 
 .accordion-item-header {
@@ -269,8 +274,9 @@ body{
     align-items: center;
     position: relative;
     cursor: pointer;
-	font-family: 'Intern';
+	font-family: "Inter", sans-serif;
 	padding: 0.5rem 3rem 0.5rem 1rem;
+	border-radius: 5px !important;
 }
 
 .accordion-item-header::after {
@@ -292,7 +298,8 @@ body{
     padding: 25px;
     line-height: 21.78px;
     border-top: 1px solid#000;
-	font-family: 'Intern';
+	font-family: "Inter", sans-serif;
+	text-align: justify;
 }
 
 .accordion-item-header.active + .accordion-item-body {

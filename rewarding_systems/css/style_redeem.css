@@ -442,3 +442,59 @@ button:disabled {
 /* .card{
 	height: 136px;
 } */
+
+/* Modal */
+
+.form-label{
+	font-weight: 600;
+}
+
+.number-input{
+	display: flex;
+}
+
+.number-input input {
+	text-align: center;
+	width: 60px;
+	-moz-appearance: textfield;
+}
+
+.number-input input::-webkit-outer-spin-button,
+        .number-input input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+.number-form{
+	width: 50px !important;
+}
+
+.reward-form{
+	width: 250px !important;
+}
+
+.form-row{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/* Modal 2 */
+
+.btn_secondary{
+	border: 2px solid #444444 !important;
+	border-radius: 50px !important;
+	padding-right: 20px !important;
+	padding-left: 20px !important;
+	font-weight: 600 !important;
+	color: #181818 !important;
+}
+
+.btn_primary{
+	background-color: #D3122B !important;
+	border-radius: 50px !important;
+	padding-right: 20px !important;
+	padding-left: 20px !important;
+	font-weight: 600 !important;
+	color: #ffffff !important;
+}
